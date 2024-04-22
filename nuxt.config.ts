@@ -2,7 +2,13 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   telemetry: { enabled: false },
-  modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt', '@nuxt/eslint'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts',
+    '@nuxt/eslint',
+    '@nuxt/image',
+    'shadcn-nuxt',
+  ],
   shadcn: {
     prefix: '',
 
@@ -12,5 +18,11 @@ export default defineNuxtConfig({
     config: {
       stylistic: true,
     },
+  },
+  imports: {
+    dirs: [],
+  },
+  components: {
+    dirs: [],
   },
 })

@@ -3,3 +3,5 @@
 - shadcn-vue
 - tailwindcss
 - eslint
+- image
+- google-fonts

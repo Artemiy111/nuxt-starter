@@ -1,6 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-  <span>hi</span>
-  <Button>ih</Button>
+  <main>
+    <span>hi</span>
+    <Button>ih</Button>
+  </main>
 </template>
